@@ -1,0 +1,34 @@
+FIRST_NAME,MIDDLE_NAME,LAST_NAME,SSN,DOOR_NO,STREET_NAME,CUST_CITY,CUST_STATE,CUST_COUNTRY,	CUST_ZIP,CUST_PHONE,CUST_EMAIL 
+Richard,Charles,Smith,198780235,47,Harris,Houston,Texas,US,77228,3691584563,Richard_Smith@yahoo.com
+Christopher,Paul,Anderson,198782582	,23,Williamson,Georgetown,Texas,US,78626,3691954415,Chris.Anderson@gmail.com
+Joseph,Thomas,Clark,198793107,98,Westmoreland,New Kensington,Pennsylvania,US,15069,7296549821,	JosephClark@rediffmail.com  
+Mary,Patricia,Wright,965821564,23,Hopewell City,Hopewell,Virginia	,US,23860,6543821976,MaryPatricia@yahoo.com
+George,Kenneth,Mitchell,198782381,57,Frederick,Winchester,Virginia,US,22603,6544080939,George_ Mit@yahoo.com
+David,William,Johnson,965823910,23,Fort Bend,Cloverleaf	,Texas,US,77053,3692102267,DavidJohn@rediffmail.com
+Carol,Ruth,Thomas,198837146,23,Travis,Lakeway,Texas	,US,78738,3692411402,RuthThomson@gmail.com
+Dorothy,Margaret,Rodriguez,	965823749,543,Prince William,Dale City,Virginia,US,22193,6544454165,D_Marget@gmail.com
+Steven,Edward,Lopez,198809278,42,Clarion,Clarion,Pennsylvania,US,16214,7296871610,Steven.Lopez@yahoo.com
+Sandra,Donna,Perez,198816574,32,Chester,Downingtown	,Pennsylvania,US,19335,7296808234,Sandra_DP@gmail.com
+Robert,Michael,Williams,965845020,8,	Erath,Stephenville,Texas,US,76402,3692608538,Robert_William@yahoo.com
+Sharon,Laura,Jackson,965826804,52,Lee,Rose Hill,Virginia,US,24281,6543785455,Sharon.Jack@yahoo.com
+Brian,Ronald,Lewis,202482232,74,Taylor,Abilene,Texas,US,79607,3691744050,Lewis_Brian@gmail.com
+Maria,Susan,Hill,965870683,467,Warren,Front Royal,Virginia,US,	22630,6543787813,Susan.Hill@rediffmail.com
+Mark,Donald,Roberts,202851665,56,Nolan,Sweetwater,Texas,US,79556,3692670365,DonaldMark@yahoo.com
+Anthony,Kevin,Jones,239408046,46,Montgomery,Trooper,Pennsylvania,US,19409,7297328531,Jones.Kevin@rediffmail.com
+Jason,Jeff,White,572109812,54,Isle Of Wight,Smithfield,Virginia,US,23431,6544339680,Jeff_White@yahoo.com
+James,John,Lee,830478959,63,Orange,Lakeside,Virginia,US,22508	,6544704894,JamesLee@yahoo.com
+Michael,NULL,Scott,894395367,68,Wise,Greatwood,Texas,US,76246,3694974549,Scott.Michale@gmail.com
+Nancy,Karen,Turner ,749361445,75,Wise,Bull Run ,Virginia,US,22893,6544963635,Nancy_turner@rediffmail.com
+Thomas,	NULL,Brown,786688765,63,Montgomery,Bellefonte,Pennsylvania,US,19424,7298078108,Brown_Thomas@yahoo.com
+Linda,Barbara,Harris,203704406,25,Centre,Blue Bell ,Pennsylvania,US,16823,7297351988,Linda.Barbara@gmail.com
+Robert,NULL,Walker,696197169,10,Mercer,Grove City,Pennsylvania,US,16127,7297543100,Walker_Robert@yahoo.com
+Mark,NULL,Green,931324108,423,Tarrant,Mansfield,Texas,US,76063,3692732192,Mark.Green@yahoo.com
+Sarah,Michelle,Phillips,586895081,40,Falls,Marlin,Texas,US,76661,3692486013,SarahPhillips@gmail.com
+James,NULL,Davis,789903554,36,Indiana,Indiana,Pennsylvania,US,15701,7297579621,Davis_James@yahoo.com
+James,NULL,Martin,572269075,26,Orange,Orange,Texas,US,77631,3692744977,Martin_James@rediffmail.com
+Kimberly,	Deborah,Miller,794502266,73,Northumberland,Shamoki,Pennsylvania,US,17872,7296690955,Kimberly.Miller@yahoo.com
+Elizabeth	,NULL,Allen,830505118,2,Delaware,Yeadon,Pennsylvania,US,19050,7297835769,AllenElizabetj@gmail.com
+Jennifer,Elizabeth,Wilson,696851958,82,Dallas,Balch Springs,Texas,US,75181,3692794352,Jeniffer_Wilson@yahoo.com
+Betty,Helen,Gonzalez,239864967,14,Bucks,Perkasie,Pennsylvania,US,18944,7296949365,Helen.Gonzales@rediffmail.com
+Linda,NULL,Martinez,573588381,101,Delaware,Swarthmore,Pennsylvania,US,19081,7300569883,Linda_Martinez@gmail.com
+Lisa,NULL,Robinson,244295971,76,Denton,Highland Village,Texas,US,75056,3692818228,Robinson_Lisa@yahoo.com

@@ -1,0 +1,51 @@
+25062004198793107304035039SAPP_Pennsylvania        Leather jacket                5
+20072004198809278301004007SAPP_Pennsylvania        Formal Ladies Shirt           2
+24082004198816574300001003SAPP_Pennsylvania        Hand Glove                    4
+28092004198793107318303317SAPP_Pennsylvania        Party wear trousers           5
+12112004198809278304035039SAPP_Pennsylvania        Leather jacket                7
+71122004198816574301004007SAPP_Pennsylvania        Formal Ladies Shirt           3
+11012005239408046300001003SAPP_Pennsylvania        Hand Glove                    2
+15022005786688765318303317SAPP_Pennsylvania        Party wear trousers           5
+22032005203704406302008009SAPP_Pennsylvania        Sun glasses                   2
+26042005696197169310221222SAPP_Pennsylvania        Formal Mens Shirts            4
+31052005789903554305040049SAPP_Pennsylvania        Mens wear                     7
+15072005198793107303010034SAPP_Pennsylvania        Avon musk                     3
+19082005198809278314247251SAPP_Pennsylvania        Caps                          5
+13092005198816574307135158SAPP_Pennsylvania        Formal Mens trousers          2
+18102005239408046319318361SAPP_Pennsylvania        Cargos                        5
+22112005786688765311223231SAPP_Pennsylvania        Shaving Gel                   2
+27122005198793107312232236SAPP_Pennsylvania        Thermal Wear                  5
+31012006198809278313237246SAPP_Pennsylvania        Formal Ladies trousers        3
+17032006198816574306050134SAPP_Pennsylvania        Kids Wear                     1
+11042006239408046304035039SAPP_Pennsylvania        Leather jacket                7
+16052006786688765301004007SAPP_Pennsylvania        Formal Ladies Shirt           4
+20062006203704406300001003SAPP_Pennsylvania        Hand Glove                    3
+25072006696197169318303317SAPP_Pennsylvania        Party wear trousers           2
+29082006789903554302008009SAPP_Pennsylvania        Sun glasses                   5
+13102006794502266310221222SAPP_Pennsylvania        Formal Mens Shirts            2
+17112006830505118305040049SAPP_Pennsylvania        Mens wear                     2
+12122006239864967303010034SAPP_Pennsylvania        Avon musk                     6
+16012007573588381314247251SAPP_Pennsylvania        Caps                          3
+20022007239408046307135158SAPP_Pennsylvania        Formal Mens trousers          2
+27032007198793107319318361SAPP_Pennsylvania        Cargos                        5
+11052007198809278311223231SAPP_Pennsylvania        Shaving Gel                   7
+15062007198816574312232236SAPP_Pennsylvania        Thermal Wear                  4
+10072007239408046313237246SAPP_Pennsylvania        Formal Ladies trousers        2
+14082007786688765306050134SAPP_Pennsylvania        Kids Wear                     5
+18092007203704406302008009SAPP_Pennsylvania        Sun glasses                   2
+23102007696197169309212220SAPP_Pennsylvania        Ladies Jeans                  4
+27112007789903554314247251SAPP_Pennsylvania        Caps                          7
+11012008794502266307135158SAPP_Pennsylvania        Formal Mens trousers          3
+15022008830505118304035039SAPP_Pennsylvania        Leather jacket                1
+11032008198793107301004007SAPP_Pennsylvania        Formal Ladies Shirt           5
+15042008198809278300001003SAPP_Pennsylvania        Hand Glove                    7
+20052008198816574318303317SAPP_Pennsylvania        Party wear trousers           3
+24062008239408046302008009SAPP_Pennsylvania        Sun glasses                   5
+29072008786688765310221222SAPP_Pennsylvania        Formal Mens Shirts            7
+12092008203704406305040049SAPP_Pennsylvania        Mens wear                     9
+17102008696197169303010034SAPP_Pennsylvania        Avon musk                     5
+11112008789903554314247251SAPP_Pennsylvania        Caps                          3
+16122008794502266307135158SAPP_Pennsylvania        Formal Mens trousers          5
+20012009830505118319318361SAPP_Pennsylvania        Cargos                        7
+24022009239864967311223231SAPP_Pennsylvania        Shaving Gel                   9
+31032009573588381312232236SAPP_Pennsylvania        Thermal Wear                  4

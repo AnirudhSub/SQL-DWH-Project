@@ -1,0 +1,153 @@
+DAY,MONTH,YEAR,CUSTOMER_SSN,SUPPLIER_SSN,BRANCH_NAME,PRODUCT_NAME,QUANTITY_SOLD
+3,September,2004,965821564,304035039,SAPP_Virginia,Leather jacket,4
+3,September,2004,198782381,301004007,SAPP_Virginia,Formal Ladies Shirt,3
+3,September,2004,965823749,300001003,SAPP_Virginia,Hand Glove,6
+18,October,2004,965821564,318303317,SAPP_Virginia,Party wear trousers,2
+18,October,2004,198782381,302008009,SAPP_Virginia,Sun glasses,4
+18,October,2004,965823749,310221222,SAPP_Virginia,Formal Mens Shirts,2
+2,December,2004,965826804,305040049,SAPP_Virginia,Mens wear,4
+2,December,2004,965870683,304035039,SAPP_Virginia,Leather jacket,5
+2,December,2004,572109812,301004007,SAPP_Virginia,Formal Ladies Shirt,2
+2,December,2004,830478959,300001003,SAPP_Virginia,Hand Glove,4
+16,January,2005,749361445,318303317,SAPP_Virginia,Party wear trousers,6
+16,January,2005,965823749,302008009,SAPP_Virginia,Sun glasses,2
+16,January,2005,965821564,310221222,SAPP_Virginia,Formal Mens Shirts,6
+16,January,2005,198782381,305040049,SAPP_Virginia,Mens wear,3
+2,March,2005,965823749,303010034,SAPP_Virginia,Avon musk,7
+2,March,2005,965826804,314247251,SAPP_Virginia,Caps,3
+2,March,2005,965870683,307135158,SAPP_Virginia,Formal Mens trousers,3
+2,March,2005,572109812,319318361,SAPP_Virginia,Cargos,6
+16,April,2005,830478959,311223231,SAPP_Virginia,Shaving Gel,2
+16,April,2005,965821564,312232236,SAPP_Virginia,Thermal Wear,5
+16,April,2005,198782381,313237246,SAPP_Virginia,Formal Ladies trousers,3
+16,April,2005,965823749,306050134,SAPP_Virginia,Kids Wear,5
+31,May,2005,965826804,302008009,SAPP_Virginia,Sun glasses,2
+31,May,2005,965870683,309212220,SAPP_Virginia,Ladies Jeans,3
+31,May,2005,572109812,303010034,SAPP_Virginia,Avon musk,3
+31,May,2005,830478959,314247251,SAPP_Virginia,Caps,6
+15,July,2005,749361445,307135158,SAPP_Virginia,Formal Mens trousers,2
+15,July,2005,965823749,319318361,SAPP_Virginia,Cargos,5
+15,July,2005,965826804,311223231,SAPP_Virginia,Shaving Gel,1
+15,July,2005,965870683,312232236,SAPP_Virginia,Thermal Wear,4
+29,August,2005,572109812,313237246,SAPP_Virginia,Formal Ladies trousers,2
+29,August,2005,965821564,306050134,SAPP_Virginia,Kids Wear,5
+29,August,2005,198782381,302008009,SAPP_Virginia,Sun glasses,2
+29,August,2005,965823749,309212220,SAPP_Virginia,Ladies Jeans,5
+29,August,2005,965821564,304035039,SAPP_Virginia,Leather jacket,3
+13,October,2005,198782381,301004007,SAPP_Virginia,Formal Ladies Shirt,5
+13,October,2005,965823749,300001003,SAPP_Virginia,Hand Glove,6
+13,October,2005,965826804,318303317,SAPP_Virginia,Party wear trousers,2
+13,October,2005,965870683,302008009,SAPP_Virginia,Sun glasses,4
+27,November,2005,965821564,310221222,SAPP_Virginia,Formal Mens Shirts,6
+27,November,2005,198782381,305040049,SAPP_Virginia,Mens wear,3
+27,November,2005,965823749,303010034,SAPP_Virginia,Avon musk,5
+27,November,2005,965826804,314247251,SAPP_Virginia,Caps,7
+11,January,2006,965870683,307135158,SAPP_Virginia,Formal Mens trousers,4
+11,January,2006,572109812,319318361,SAPP_Virginia,Cargos,7
+11,January,2006,830478959,311223231,SAPP_Virginia,Shaving Gel,4
+11,January,2006,749361445,312232236,SAPP_Virginia,Thermal Wear,6
+11,January,2006,965870683,313237246,SAPP_Virginia,Formal Ladies trousers,4
+25,February,2006,965821564,306050134,SAPP_Virginia,Kids Wear,6
+25,February,2006,198782381,302008009,SAPP_Virginia,Sun glasses,4
+25,February,2006,965823749,309212220,SAPP_Virginia,Ladies Jeans,3
+25,February,2006,965826804,304035039,SAPP_Virginia,Leather jacket,2
+25,February,2006,965870683,301004007,SAPP_Virginia,Formal Ladies Shirt,6
+11,April,2006,572109812,300001003,SAPP_Virginia,Hand Glove,4
+11,April,2006,830478959,318303317,SAPP_Virginia,Party wear trousers,3
+11,April,2006,749361445,304035039,SAPP_Virginia,Leather jacket,5
+11,April,2006,198782381,301004007,SAPP_Virginia,Formal Ladies Shirt,3
+26,May,2006,965823749,300001003,SAPP_Virginia,Hand Glove,2
+26,May,2006,965826804,318303317,SAPP_Virginia,Party wear trousers,5
+26,May,2006,965821564,302008009,SAPP_Virginia,Sun glasses,3
+26,May,2006,198782381,310221222,SAPP_Virginia,Formal Mens Shirts,6
+10,July,2006,965823749,305040049,SAPP_Virginia,Mens wear,3
+10,July,2006,965826804,303010034,SAPP_Virginia,Avon musk,3
+10,July,2006,965870683,314247251,SAPP_Virginia,Caps,2
+24,August,2006,572109812,307135158,SAPP_Virginia,Formal Mens trousers,4
+24,August,2006,830478959,319318361,SAPP_Virginia,Cargos,3
+24,August,2006,749361445,311223231,SAPP_Virginia,Shaving Gel,2
+24,August,2006,965821564,312232236,SAPP_Virginia,Thermal Wear,1
+8,October,2006,198782381,313237246,SAPP_Virginia,Formal Ladies trousers,4
+8,October,2006,965823749,306050134,SAPP_Virginia,Kids Wear,1
+8,October,2006,965826804,302008009,SAPP_Virginia,Sun glasses,4
+8,October,2006,965870683,309212220,SAPP_Virginia,Ladies Jeans,6
+8,October,2006,572109812,302008009,SAPP_Virginia,Sun glasses,3
+22,November,2006,830478959,310221222,SAPP_Virginia,Formal Mens Shirts,5
+22,November,2006,749361445,305040049,SAPP_Virginia,Mens wear,3
+22,November,2006,965823749,303010034,SAPP_Virginia,Avon musk,5
+22,November,2006,965826804,304035039,SAPP_Virginia,Leather jacket,3
+6,January,2007,965821564,301004007,SAPP_Virginia,Formal Ladies Shirt,5
+6,January,2007,198782381,300001003,SAPP_Virginia,Hand Glove,3
+6,January,2007,965823749,318303317,SAPP_Virginia,Party wear trousers,5
+6,January,2007,965826804,302008009,SAPP_Virginia,Sun glasses,3
+20,February,2007,965870683,310221222,SAPP_Virginia,Formal Mens Shirts,6
+20,February,2007,572109812,305040049,SAPP_Virginia,Mens wear,3
+20,February,2007,830478959,303010034,SAPP_Virginia,Avon musk,6
+20,February,2007,749361445,314247251,SAPP_Virginia,Caps,3
+6,April,2007,198782381,307135158,SAPP_Virginia,Formal Mens trousers,5
+6,April,2007,965823749,319318361,SAPP_Virginia,Cargos,4
+6,April,2007,965821564,311223231,SAPP_Virginia,Shaving Gel,7
+21,May,2007,198782381,312232236,SAPP_Virginia,Thermal Wear,6
+21,May,2007,965823749,313237246,SAPP_Virginia,Formal Ladies trousers,5
+21,May,2007,965826804,306050134,SAPP_Virginia,Kids Wear,3
+21,May,2007,965870683,302008009,SAPP_Virginia,Sun glasses,5
+5,July,2007,572109812,309212220,SAPP_Virginia,Ladies Jeans,3
+5,July,2007,830478959,314247251,SAPP_Virginia,Caps,2
+5,July,2007,965821564,307135158,SAPP_Virginia,Formal Mens trousers,5
+5,July,2007,198782381,319318361,SAPP_Virginia,Cargos,2
+19,August,2007,965823749,311223231,SAPP_Virginia,Shaving Gel,4
+19,August,2007,965826804,304035039,SAPP_Virginia,Leather jacket,2
+19,August,2007,965870683,301004007,SAPP_Virginia,Formal Ladies Shirt,4
+19,August,2007,572109812,300001003,SAPP_Virginia,Hand Glove,2
+19,August,2007,830478959,318303317,SAPP_Virginia,Party wear trousers,5
+3,October,2007,749361445,302008009,SAPP_Virginia,Sun glasses,7
+3,October,2007,965823749,310221222,SAPP_Virginia,Formal Mens Shirts,2
+3,October,2007,965821564,305040049,SAPP_Virginia,Mens wear,4
+3,October,2007,198782381,303010034,SAPP_Virginia,Avon musk,7
+17,November,2007,965823749,314247251,SAPP_Virginia,Caps,3
+17,November,2007,965826804,307135158,SAPP_Virginia,Formal Mens trousers,5
+17,November,2007,965870683,319318361,SAPP_Virginia,Cargos,7
+17,November,2007,572109812,311223231,SAPP_Virginia,Shaving Gel,3
+17,November,2007,830478959,312232236,SAPP_Virginia,Thermal Wear,5
+1,January,2008,749361445,313237246,SAPP_Virginia,Formal Ladies trousers,7
+1,January,2008,965823749,306050134,SAPP_Virginia,Kids Wear,3
+1,January,2008,965821564,302008009,SAPP_Virginia,Sun glasses,6
+1,January,2008,198782381,309212220,SAPP_Virginia,Ladies Jeans,3
+15,February,2008,965823749,312232236,SAPP_Virginia,Thermal Wear,6
+15,February,2008,965826804,313237246,SAPP_Virginia,Formal Ladies trousers,4
+15,February,2008,965870683,306050134,SAPP_Virginia,Kids Wear,3
+15,February,2008,572109812,302008009,SAPP_Virginia,Sun glasses,2
+31,March,2008,830478959,309212220,SAPP_Virginia,Ladies Jeans,6
+31,March,2008,749361445,304035039,SAPP_Virginia,Leather jacket,4
+31,March,2008,965823749,301004007,SAPP_Virginia,Formal Ladies Shirt,3
+31,March,2008,965821564,300001003,SAPP_Virginia,Hand Glove,5
+15,May,2008,198782381,318303317,SAPP_Virginia,Party wear trousers,2
+15,May,2008,965823749,302008009,SAPP_Virginia,Sun glasses,4
+15,May,2008,965826804,310221222,SAPP_Virginia,Formal Mens Shirts,5
+15,May,2008,965870683,305040049,SAPP_Virginia,Mens wear,6
+29,June,2008,572109812,303010034,SAPP_Virginia,Avon musk,2
+29,June,2008,830478959,314247251,SAPP_Virginia,Caps,4
+29,June,2008,749361445,307135158,SAPP_Virginia,Formal Mens trousers,6
+29,June,2008,965823749,319318361,SAPP_Virginia,Cargos,3
+13,August,2008,965826804,311223231,SAPP_Virginia,Shaving Gel,4
+13,August,2008,965821564,312232236,SAPP_Virginia,Thermal Wear,6
+13,August,2008,198782381,313237246,SAPP_Virginia,Formal Ladies trousers,3
+13,August,2008,965823749,306050134,SAPP_Virginia,Kids Wear,4
+27,September,2008,965826804,302008009,SAPP_Virginia,Sun glasses,5
+27,September,2008,965870683,309212220,SAPP_Virginia,Ladies Jeans,4
+27,September,2008,572109812,304035039,SAPP_Virginia,Leather jacket,6
+27,September,2008,830478959,301004007,SAPP_Virginia,Formal Ladies Shirt,4
+11,November,2008,749361445,300001003,SAPP_Virginia,Hand Glove,5
+11,November,2008,198782381,318303317,SAPP_Virginia,Party wear trousers,6
+11,November,2008,965823749,302008009,SAPP_Virginia,Sun glasses,3
+11,November,2008,965826804,310221222,SAPP_Virginia,Formal Mens Shirts,5
+26,December,2008,965870683,305040049,SAPP_Virginia,Mens wear,4
+26,December,2008,572109812,303010034,SAPP_Virginia,Avon musk,6
+26,December,2008,830478959,314247251,SAPP_Virginia,Caps,5
+9,February,2009,965821564,307135158,SAPP_Virginia,Formal Mens trousers,7
+9,February,2009,198782381,319318361,SAPP_Virginia,Cargos,3
+9,February,2009,965823749,311223231,SAPP_Virginia,Shaving Gel,5
+9,February,2009,965826804,312232236,SAPP_Virginia,Thermal Wear,7
+26,March,2009,965870683,313237246,SAPP_Virginia,Formal Ladies trousers,4
+26,March,2009,572109812,306050134,SAPP_Virginia,Kids Wear,7
+26,March,2009,830478959,302008009,SAPP_Virginia,Sun glasses,4
