@@ -10,7 +10,20 @@ SELECT * FROM dbo.CDW_SAPP_D_CALENDAR*/
 
 /*DROP TABLE  [Landing].[U_CDW_SAPP_D_CUSTOMER]
 SELECT * FROM [Landing].[U_CDW_SAPP_D_CUSTOMER]*/
-SELECT * FROM [dbo].[CDW_SAPP_CUSTOMER]
+--SELECT * FROM [dbo].[CDW_SAPP_CUSTOMER]
+
+---------------------------------------------------------CREATING SCHEMAS----------------------------------------------------------
+IF NOT EXISTS ( SELECT * FROM sys.schemas
+ WHERE name = N'Landing' )
+  EXEC('CREATE SCHEMA [Landing] AUTHORIZATION [dbo]');
+
+IF NOT EXISTS ( SELECT * FROM sys.schemas
+ WHERE name = N'Staging' )
+  EXEC('CREATE SCHEMA [Staging] AUTHORIZATION [dbo]');
+
+  IF NOT EXISTS ( SELECT * FROM sys.schemas
+ WHERE name = N'DW' )
+  EXEC('CREATE SCHEMA [DW] AUTHORIZATION [dbo]');
 
 --------------------------------------------------------UPDATING CUSTOMER TABLE-------------------------------------------------------
 	IF OBJECT_ID(N'[Landing].[U_CDW_SAPP_D_CUSTOMER]' , N'U') IS NULL
@@ -106,7 +119,6 @@ WHEN NOT MATCHED THEN
 ------------------------------------------------------------------------------------------------------------------------
 /*SELECT * FROM [Landing].[U_CDW_SAPP_D_SUPPLIER];
 DROP TABLE [Landing].[U_CDW_SAPP_D_SUPPLIER]*/
-SELECT * FROM [dbo].[CDW_SAPP_SUPPLIER]
 --------------------------------------------------------SUPPLIER UPDATED TABLE--------------------------------------------------------
 	IF OBJECT_ID(N'[Landing].[U_CDW_SAPP_D_SUPPLIER]' , N'U') IS NULL
 	BEGIN
