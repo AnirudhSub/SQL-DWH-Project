@@ -1,9 +1,16 @@
 --exec sp_help '[Landing].[L_CDW_SAPP_CUSTOMER]';
-
+/*SELECT * FROM dbo.CDW_SAPP_PRODUCT
+DROP TABLE dbo.CDW_SAPP_SUPPLIER
+SELECT * FROM dbo.CDW_SAPP_SUPPLIER
+SELECT * FROM dbo.CDW_SAPP_BRANCH
+SELECT * FROM dbo.CDW_SAPP_F_SALES_BR_4382
+SELECT * FROM dbo.CDW_SAPP_F_SALES_BR_4383
+SELECT * FROM dbo.CDW_SAPP_D_CALENDAR*/
 ---------------------------------------------------------------------------------------------------------------------------------------------
 
 /*DROP TABLE  [Landing].[U_CDW_SAPP_D_CUSTOMER]
 SELECT * FROM [Landing].[U_CDW_SAPP_D_CUSTOMER]*/
+SELECT * FROM [dbo].[CDW_SAPP_CUSTOMER]
 
 --------------------------------------------------------UPDATING CUSTOMER TABLE-------------------------------------------------------
 	IF OBJECT_ID(N'[Landing].[U_CDW_SAPP_D_CUSTOMER]' , N'U') IS NULL
@@ -33,14 +40,14 @@ USING (
        UPPER(LEFT(FIRST_NAME, 1)) + LOWER(SUBSTRING(FIRST_NAME, 2, LEN(FIRST_NAME))) AS CUST_F_NAME,
        LOWER(MIDDLE_NAME) AS CUST_M_NAME,
        UPPER(LEFT(LAST_NAME, 1)) + LOWER(SUBSTRING(LAST_NAME, 2, LEN(LAST_NAME))) AS CUST_L_NAME,
-       TRY_CAST(REPLACE(LTRIM(RTRIM(SSN)), ' ', '') AS BIGINT) AS CUST_SSN,
+       TRY_CAST(REPLACE(LTRIM(RTRIM(SSN)), ' ', '') AS BIGINT) AS SSN,
        CONCAT(DOOR_NO, ', ', STREET_NAME) AS CUST_STREET,
        CUST_CITY,
        CUST_STATE,
        CUST_COUNTRY,
-       TRY_CAST(ISNULL(NULLIF(LTRIM(RTRIM([CUST_ZIP])), ''), '0') AS INT) AS CUST_ZIP,
+       TRY_CAST(ISNULL(NULLIF(LTRIM(RTRIM( [	CUST_ZIP])), ''), '0') AS INT) AS CUST_ZIP,
        SUBSTRING(CUST_PHONE, 1, 3) + '-' + SUBSTRING(CUST_PHONE, 4, 3) + '-' + SUBSTRING(CUST_PHONE, 7, 4) AS CUST_PHONE,
-       [CUST_EMAIL],
+       [CUST_EMAIL ],
        GETDATE() AS LOADING_DATE,
        'CDW_SAPP_CUSTOMER' AS SOURCE_DATA
    FROM [dbo].[CDW_SAPP_CUSTOMER]
@@ -51,14 +58,14 @@ WHEN MATCHED THEN
        CUST_F_NAME = Source.CUST_F_NAME,
        CUST_M_NAME = Source.CUST_M_NAME,
        CUST_L_NAME = Source.CUST_L_NAME,
-       CUST_SSN = Source.CUST_SSN,
+       CUST_SSN = Source.SSN,
        CUST_STREET = Source.CUST_STREET,
        CUST_CITY = Source.CUST_CITY,
        CUST_STATE = Source.CUST_STATE,
        CUST_COUNTRY = Source.CUST_COUNTRY,
        CUST_ZIP = Source.CUST_ZIP,
        CUST_PHONE = Source.CUST_PHONE,
-       CUST_EMAIL = Source.CUST_EMAIL,
+       CUST_EMAIL = Source.[CUST_EMAIL ],
        LOADING_DATE = Source.LOADING_DATE,
        SOURCE_DATA = Source.SOURCE_DATA
 WHEN NOT MATCHED THEN
@@ -83,14 +90,14 @@ WHEN NOT MATCHED THEN
        Source.CUST_F_NAME,
        Source.CUST_M_NAME,
        Source.CUST_L_NAME,
-       Source.CUST_SSN,
+       Source.SSN,
        Source.CUST_STREET,
        Source.CUST_CITY,
        Source.CUST_STATE,
        Source.CUST_COUNTRY,
        Source.CUST_ZIP,
        Source.CUST_PHONE,
-       Source.CUST_EMAIL,
+       Source.[CUST_EMAIL ],
        Source.LOADING_DATE,
        Source.SOURCE_DATA
    );
@@ -99,6 +106,7 @@ WHEN NOT MATCHED THEN
 ------------------------------------------------------------------------------------------------------------------------
 /*SELECT * FROM [Landing].[U_CDW_SAPP_D_SUPPLIER];
 DROP TABLE [Landing].[U_CDW_SAPP_D_SUPPLIER]*/
+SELECT * FROM [dbo].[CDW_SAPP_SUPPLIER]
 --------------------------------------------------------SUPPLIER UPDATED TABLE--------------------------------------------------------
 	IF OBJECT_ID(N'[Landing].[U_CDW_SAPP_D_SUPPLIER]' , N'U') IS NULL
 	BEGIN
@@ -158,6 +166,8 @@ WHEN NOT MATCHED THEN
 --------------------------------------------------------------------------------------------------------------------------------------
 /*SELECT * FROM [Landing].[U_CDW_SAPP_D_PRODUCT]
 DROP TABLE [Landing].[U_CDW_SAPP_D_PRODUCT]*/
+
+
 
 -----------------------------------------------------PRODUCT UPDATED TABLE------------------------------------------------------------
 	IF OBJECT_ID(N'[Landing].[U_CDW_SAPP_D_PRODUCT]' , N'U') IS NULL
@@ -472,7 +482,7 @@ WHEN NOT MATCHED THEN
        Source.LOADING_DATE,
        Source.SOURCE_DATA
    );
-/*SELECT * FROM [Landing].[CDW_SAPP_F_SALES_BR_4383]*/
+/*SELECT * FROM [Landing].[CDW_SAPP_F_SALES	_BR_4383]*/
 
 
 DROP TABLE IF EXISTS [Landing].[U_CDW_SAPP_F_SALES]
