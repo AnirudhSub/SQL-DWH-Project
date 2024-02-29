@@ -39,7 +39,7 @@ data_sales_BR_4382.to_sql ( sales_4382_table_name , engine , if_exists='replace'
                                                                                                         'BRANCH_NAME': VARCHAR , 'PRODUCT_NAME': VARCHAR , 'QUANTITY_SOLD': VARCHAR } )
 data_sales_BR_4383.to_sql ( sales_4383_table_name , engine , if_exists='replace', index=False , dtype= { 'DAY': VARCHAR , 'MONTH': VARCHAR, 'YEAR': VARCHAR, 'CUSTOMER_SSN': VARCHAR, 'SUPPLIER_SSN': VARCHAR,
                                                                                                         'BRANCH_NAME': VARCHAR , 'PRODUCT_NAME': VARCHAR , 'QUANTITY_SOLD': VARCHAR} )
-data_product.to_sql ( product_table_name , engine , if_exists='replace', index=False , dtype= {'PRODUCT_CODE': BIGINT , 'PRODUCT_NAME': VARCHAR , 'SUPPLIER_SSN': INT , 'PRODUCT_PRICE':VARCHAR} )
+data_product.to_sql ( product_table_name , engine , if_exists='replace', index=False , dtype= {'PRODUCT_CODE': BIGINT , 'PRODUCT_NAME': VARCHAR , 'SUPPLIER_SSN': INT , 'PRODUCT_PRICE':VARCHAR } )
 data_supplier.to_sql ( supplier_table_name , engine , if_exists='replace', index=False , dtype= {'SUPPLIER_NAME': VARCHAR , 'SUPPLIER_SSN': VARCHAR , 'SUPPLIER_PHONE': VARCHAR, 'SUPPLIER_LOC' : VARCHAR} )
 
 
