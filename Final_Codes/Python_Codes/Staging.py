@@ -1,7 +1,7 @@
 import pyodbc
 conn = pyodbc.connect('DRIVER={SQL Server};'
                       'SERVER=IN3539628W1\\SQLEXPRESS;'  
-                      'DATABASE=RetailShop;'  
+                      'DATABASE=PROJECTDB;'  
                       'Trusted_Connection=yes')  
 cursor = conn.cursor()
  
