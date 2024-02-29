@@ -339,7 +339,6 @@ WHEN NOT MATCHED THEN
    );
    
 --------------------------------------------------------------SALES TABLE UPDATION-------------------------------------------------------------------------------
-DROP TABLE IF EXISTS [Landing].[CDW_SAPP_F_SALES_BR_4382]
 IF OBJECT_ID(N'[Landing].[CDW_SAPP_F_SALES_BR_4382]' , N'U') IS NULL
 	CREATE TABLE [Landing].[CDW_SAPP_F_SALES_BR_4382] (
 	  DAY VARCHAR(MAX),
@@ -368,7 +367,7 @@ USING (
        'CDW_SAPP_F_SALES_BR_4382' AS SOURCE_DATA
    FROM dbo.CDW_SAPP_F_SALES_BR_4382
 ) AS Source
-ON Target.CUSTOMER_SSN = Source.CUSTOMER_SSN
+ON Target.CUSTOMER_SSN = Source.CUSTOMER_SSN AND Target.DAY = Source.DAY AND Target.MONTH = Source.MONTH AND Target.YEAR = Source.YEAR AND Target.SUPPLIER_SSN = Source. SUPPLIER_SSN 
 WHEN MATCHED THEN
    UPDATE SET
        Target.DAY = Source.DAY,
@@ -407,7 +406,6 @@ WHEN NOT MATCHED THEN
        Source.SOURCE_DATA
    );
 
-DROP TABLE IF EXISTS [Landing].[CDW_SAPP_F_SALES_BR_4383]
 IF OBJECT_ID(N'[Landing].[CDW_SAPP_F_SALES_BR_4383]' , N'U') IS NULL
 	CREATE TABLE [Landing].[CDW_SAPP_F_SALES_BR_4383] (
 	  DAY VARCHAR(MAX),
@@ -436,7 +434,7 @@ USING (
        'CDW_SAPP_F_SALES_BR_4383' AS SOURCE_DATA
    FROM dbo.CDW_SAPP_F_SALES_BR_4383
 ) AS Source
-ON Target.CUSTOMER_SSN = Source.CUSTOMER_SSN
+ON Target.CUSTOMER_SSN = Source.CUSTOMER_SSN AND Target.DAY = Source.DAY AND Target.MONTH = Source.MONTH AND Target.YEAR = Source.YEAR AND Target.SUPPLIER_SSN = Source. SUPPLIER_SSN 
 WHEN MATCHED THEN
    UPDATE SET
        Target.DAY = Source.DAY,
