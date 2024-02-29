@@ -287,7 +287,7 @@ WHEN NOT MATCHED THEN
 SELECT * FROM [Landing].[U_CDW_SAPP_D_TIME]*/
 
 --------------------------------------------------------TIME UPDATED TABLE------------------------------------------------------------
-	IF OBJECT_ID(N'[Landing].[U_CDW_SAPP_D_BRANCH]' , N'U') IS NULL
+	IF OBJECT_ID(N'[Landing].[U_CDW_SAPP_D_TIME]' , N'U') IS NULL
 	CREATE TABLE [Landing].[U_CDW_SAPP_D_TIME] (
 	  TIMEID VARCHAR(MAX),
 	  DAY NUMERIC(2),
