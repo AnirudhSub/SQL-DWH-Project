@@ -267,5 +267,5 @@ SELECT * FROM [DW].[CDW_SAPP_D_PRODUCT]
 SELECT * FROM [DW].[CDW_SAPP_D_BRANCH]
 SELECT * FROM [Landing].[U_CDW_SAPP_F_SALES]
 SELECT * FROM [Staging].[CDW_SAPP_STG_SALES]
-exec sp_help '[Staging].[CDW_SAPP_STG_SALES]';*/
+exec sp_help '[dbo].[CDW_SAPP_D_CALENDAR]';*/
 
